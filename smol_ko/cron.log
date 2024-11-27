@@ -1,0 +1,141 @@
+Traceback (most recent call last):
+  File "/home/mankolepantos/script_smol/smol_ko/scrap_bueno.py", line 16, in <module>
+    sb.quit()
+    ^^^^^^^
+AttributeError: 'BaseCase' object has no attribute 'quit'
+Traceback (most recent call last):
+  File "/home/mankolepantos/script_smol/smol_ko/scrap_bueno.py", line 16, in <module>
+    sb.quit()
+    ^^^^^^^
+AttributeError: 'BaseCase' object has no attribute 'quit'
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/151124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/151124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/151124.csv
+Traceback (most recent call last):
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/core/browser_launcher.py", line 4719, in get_local_driver
+    driver = undetected.Chrome(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/undetected/__init__.py", line 314, in __init__
+    super().__init__(options=options, service=service_)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 238, in __init__
+    self.start_session(capabilities)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/undetected/__init__.py", line 481, in start_session
+    super().start_session(capabilities)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 325, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: cannot connect to chrome at 127.0.0.1:9222
+from chrome not reachable
+Stacktrace:
+#0 0x5556301e2b5c <unknown>
+#1 0x55562fd5fe7c <unknown>
+#2 0x55562fd51558 <unknown>
+#3 0x55562fd93e88 <unknown>
+#4 0x55562fd8d4c8 <unknown>
+#5 0x55562fdd2014 <unknown>
+#6 0x55562fdd18c0 <unknown>
+#7 0x55562fd979b0 <unknown>
+#8 0x55562fd986c8 <unknown>
+#9 0x5556301b6964 <unknown>
+#10 0x5556301b9954 <unknown>
+#11 0x5556301b9538 <unknown>
+#12 0x5556301a864c <unknown>
+#13 0x5556301b9f90 <unknown>
+#14 0x5556301930ac <unknown>
+#15 0x5556301d2410 <unknown>
+#16 0x5556301d25f8 <unknown>
+#17 0x5556301e1b50 <unknown>
+#18 0x7fff01a7ee8c <unknown>
+#19 0x7fff01ae7b18 <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mankolepantos/script_smol/smol_ko/scrap_bueno.py", line 7, in <module>
+    with SB (uc=True, demo=True, headless=False) as sb:
+  File "/usr/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/plugins/sb_manager.py", line 1211, in SB
+    sb.setUp()
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 14986, in setUp
+    self.driver = self.get_new_driver(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 4100, in get_new_driver
+    new_driver = browser_launcher.get_driver(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/core/browser_launcher.py", line 2717, in get_driver
+    return get_local_driver(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/core/browser_launcher.py", line 4737, in get_local_driver
+    driver = undetected.Chrome(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/undetected/__init__.py", line 314, in __init__
+    super().__init__(options=options, service=service_)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 238, in __init__
+    self.start_session(capabilities)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/undetected/__init__.py", line 481, in start_session
+    super().start_session(capabilities)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 325, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: cannot connect to chrome at 127.0.0.1:9222
+from chrome not reachable
+Stacktrace:
+#0 0x55560cab2b5c <unknown>
+#1 0x55560c62fe7c <unknown>
+#2 0x55560c621558 <unknown>
+#3 0x55560c663e88 <unknown>
+#4 0x55560c65d4c8 <unknown>
+#5 0x55560c6a2014 <unknown>
+#6 0x55560c6a18c0 <unknown>
+#7 0x55560c6679b0 <unknown>
+#8 0x55560c6686c8 <unknown>
+#9 0x55560ca86964 <unknown>
+#10 0x55560ca89954 <unknown>
+#11 0x55560ca89538 <unknown>
+#12 0x55560ca7864c <unknown>
+#13 0x55560ca89f90 <unknown>
+#14 0x55560ca630ac <unknown>
+#15 0x55560caa2410 <unknown>
+#16 0x55560caa25f8 <unknown>
+#17 0x55560cab1b50 <unknown>
+#18 0x7fffaa2cee8c <unknown>
+#19 0x7fffaa337b18 <unknown>
+
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/171124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/181124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/191124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/191124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/191124.csv
+Archivo movido y renombrado exitosamente a: /home/mankolepantos/script_smol/smol_ko/data/191124.csv

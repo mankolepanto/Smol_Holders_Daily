@@ -1,0 +1,24 @@
+scrap_bueno.py:4:SB
+--------------------------------------------------------------------
+Last Page: https://arbiscan.io/exportData?type=tokenholders&contract=0x9e64d3b9e8ec387a9a58ced80b71ed815f8d82b5&decimal=18
+ Duration: 15.59s
+  Browser: Chrome 130.0.6723.91
+   Driver: chromedriver 130.0.6723.91
+Timestamp: 1731617372  (Unix Timestamp)
+     Date: Thursday, 14 November 2024
+     Time: 9:49:32 PM  (CEST, UTC+02:00)
+--------------------------------------------------------------------
+Traceback:
+  Traceback (most recent call last):
+  File "/home/mankolepantos/script_smol/smol_ko/scrap_bueno.py", line 9, in <module>
+    sb.click_link ("Download")
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 8836, in click_link
+    self.click_link_text(link_text, timeout=timeout)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 1629, in click_link_text
+    self.wait_for_link_text_present(link_text, timeout=timeout)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 9905, in wait_for_link_text_present
+    page_actions.timeout_exception("LinkTextNotFoundException", message)
+  File "/home/mankolepantos/script_smol/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/page_actions.py", line 267, in timeout_exception
+    raise exc(msg)
+seleniumbase.common.exceptions.LinkTextNotFoundException: 
+ Link text {Download} was not found after 7 seconds!
