@@ -96,3 +96,16 @@ Archivo movido y renombrado exitosamente a: /home/mankolepantos/Smol_Holders_Dai
 Archivo movido y renombrado exitosamente a: /home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/smol_ko/data/211224.csv
 Archivo movido y renombrado exitosamente a: /home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/smol_ko/data/221224.csv
 Archivo movido y renombrado exitosamente a: /home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/smol_ko/data/231224.csv
+Traceback (most recent call last):
+  File "/home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/smol_ko/scrap_bueno.py", line 12, in <module>
+    sb.click ('#ContentPlaceHolder1_btnSubmit')
+  File "/home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 417, in click
+    element = page_actions.wait_for_element_visible(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/page_actions.py", line 514, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "/home/mankolepantos/Smol_Holders_Daily/Smol_Holders_Daily/myenv/lib/python3.11/site-packages/seleniumbase/fixtures/page_actions.py", line 267, in timeout_exception
+    raise exc(msg)
+seleniumbase.common.exceptions.NoSuchElementException: Message: 
+ Element {#ContentPlaceHolder1_btnSubmit} was not present after 7 seconds!
+
